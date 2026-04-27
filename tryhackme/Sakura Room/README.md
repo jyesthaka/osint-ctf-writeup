@@ -2,7 +2,7 @@
 
 Here's the write up for Sakura Room on TryHackMe.
 
-### PART 1 - INTRODUCTION 
+## PART 1 - INTRODUCTION 
 
 We'll skip this part
 
