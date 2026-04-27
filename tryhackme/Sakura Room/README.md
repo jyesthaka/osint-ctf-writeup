@@ -108,10 +108,50 @@ On the image, we can see that there is a monument in the back:
 
 <img width="91" height="180" alt="image" src="https://github.com/user-attachments/assets/16e1941c-fe8e-4b66-b082-4024602173c8" />
 
-Using Google Lens, we can see that 
+Using Google Lens, we can see that there is an Instagram post that shows the monument, but is still unclear
+
+<img width="224" height="363" alt="image" src="https://github.com/user-attachments/assets/d34b7985-d2fb-4ba5-8dc9-730db76d7c74" />
+
+Using this image, I screen snipped it and used Google Lens again and found a match
+
+<img width="208" height="423" alt="image" src="https://github.com/user-attachments/assets/1f401d1a-8df6-4593-9a31-75f9aa3ab0c6" />
+
+It is shown that this monument is the Washington Monument where the nearest airport to this building is the Ronald Reagan Washington National Airport or DCA
+
+### Answer: DCA
+
 ### Question: What airport did the attacker have their last layover in?
+
+The user uploaded an image on his Twitter account about his last layover
+
+<img width="309" height="321" alt="image" src="https://github.com/user-attachments/assets/531e65c4-8571-4e50-b536-61a06cddb571" />
+
+Using Google Images where we input the text on the image, we can find the exact airport the user had their last layover at
+
+<img width="437" height="354" alt="image" src="https://github.com/user-attachments/assets/e403406d-af8a-4438-9bb3-5aa6d84076c7" />
+
+On the captions, it is stated that the airport is Haneda airport with the code HND 
+
+### Answer: HND
 
 ### Question: What lake can be seen in the map shared by the attacker as they were on their final flight home?
 
+There is a map showing a lake that was uploaded by the user on their Twitter account
+
+<img width="486" height="317" alt="image" src="https://github.com/user-attachments/assets/1d22275f-34e7-4995-b075-0c659d7dcee3" />
+
+Using Google Lens, I got a picture that looks similar to the one the user uploaded
+
+<img width="361" height="307" alt="image" src="https://github.com/user-attachments/assets/bd5ece8f-7486-46bb-b7f2-8c72af89ad15" />
+
+We can see this image and when looking into it again, it is Lake Inawashiro
+
+<img width="321" height="294" alt="image" src="https://github.com/user-attachments/assets/5a09bc7a-81e2-47aa-8bdd-35d8b42f5394" />
+
+### Answer: Lake Inawashiro
+
 ### Question: What city does the attacker likely consider "home"?
 
+From the previous deep pasting, it is already discovered that the hometown is Hirosaki.
+
+Therefore, CTF solved.
