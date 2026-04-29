@@ -22,6 +22,10 @@ Next step was to find what city Bond University is located at. It was not that h
 
 ## Flag
 
-OSINT{"bond_university_robina"}
+OSINT{"****_university_robina"}
+
+✔ Location intelligence gathered  
+✔ Cross-referenced multiple sources  
+✔ Conclusion validated
 
 ## Comment
