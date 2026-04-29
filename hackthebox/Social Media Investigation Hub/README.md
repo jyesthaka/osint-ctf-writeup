@@ -88,7 +88,11 @@ CTF Solved. Flag found.
 
 ## Flag
 
-HTB{alexmorgan_operationsocialstorm2024_february2024}
+HTB{alexmorgan_operationsocialstorm2024_********}
+
+✔ Social media footprint analyzed  
+✔ Relevant activity identified  
+✔ Findings validated
 
 ## Comment
 
