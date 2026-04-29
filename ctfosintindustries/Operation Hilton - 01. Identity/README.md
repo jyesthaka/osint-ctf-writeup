@@ -40,7 +40,7 @@ It shows that he is 31.
 
 ## Flag
 
-OSINT{Cole_Tomas_Allen_**_********}
+OSINT{Cole_Tomas_Allen_31_********}
 
 ✔ Identity correlation performed  
 ✔ Data triangulated from multiple sources  
