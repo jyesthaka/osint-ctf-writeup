@@ -2,7 +2,7 @@
 
 **Title:** MotoGP OSINT Investigation  
 **Category:** OSINT  
-**Difficulty:** Medium  
+**Difficulty:** Easy  
 **Description:**  
 This challenge provides two images and requires answering multiple OSINT-based questions related to location, events, and individuals to complete the investigation.
 
