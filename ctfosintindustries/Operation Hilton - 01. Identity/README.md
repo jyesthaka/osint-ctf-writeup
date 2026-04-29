@@ -2,7 +2,7 @@
 
 **Title:** Operation Hilton — 01 · Identity  
 **Category:** OSINT  
-**Difficulty:** Easy  
+**Points:** 5  
 **Description:**  
 BRIEFING
 20:36 ET. Washington Hilton, Connecticut Avenue NW. The annual White House Correspondents' Dinner is in full swing when the evacuation is triggered. Five to eight gunshots reported in the immediate vicinity of the perimeter. President Trump is extracted by the Secret Service. A suspect is apprehended on site.
