@@ -27,7 +27,11 @@ So yeah, it wasn't Gastreet. It was Ga5treet.
 
 ## Flag
 
-OSINT{GA5TREET}
+OSINT{GA5T****}
+
+✔ Public data sources analyzed  
+✔ Relevant entity identified  
+✔ Result verified against challenge context
 
 ## Comment
 CTF Solved. Flag captured.
