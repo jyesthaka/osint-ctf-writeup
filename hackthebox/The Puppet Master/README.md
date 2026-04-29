@@ -57,7 +57,11 @@ Therefore, CTF solved and flag found.
 
 ## Flag
 
-HTB{c0mb1n1ng_r34l_w0rld_4nd_s3lf_c0nt41n3d_OSINT!}
+HTB{c0mb1n1ng_r34l_w0rld_4nd_s3lf_c0nt41n3d_********}
+
+✔ Multi-source intelligence combined  
+✔ Pattern correlation performed  
+✔ Result validated successfully
 
 ## Comment
 
