@@ -2,7 +2,7 @@
 
 **Title:** Find the Masked Man  
 **Category:** OSINT  
-**Difficulty:** Easy  
+**Points:** 3  
 **Description:**  
 This challenge involved analyzing an image to identify a hidden location and determine a nearby station. The flag format is `OSINT{STATION_NAME}`.
 
