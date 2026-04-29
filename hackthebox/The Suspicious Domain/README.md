@@ -85,7 +85,7 @@ CTF Solved. Flag captured.
 
 ## Flag
 
-HTB{alexmorgantempmailcom_********_********}
+HTB{alexmorgantempmailcom_20240120_********}
 
 ✔ Domain investigation conducted  
 ✔ WHOIS / infrastructure data analyzed  
