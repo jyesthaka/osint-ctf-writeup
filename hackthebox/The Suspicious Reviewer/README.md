@@ -21,7 +21,11 @@ The easiest one so far. Had to find an email from a SocialConnect profile.
 
 ## Flag
 
-HTB{alex.morgan@tempmail.com}
+HTB{alex.morgan@********}
+
+✔ Email intelligence gathered  
+✔ Data cross-referenced with OSINT sources  
+✔ Result validated
 
 ## Comment
 
