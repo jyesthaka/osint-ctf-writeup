@@ -4,8 +4,7 @@
 **Category:** OSINT  
 **Difficulty:** Medium  
 **Description:**  
-I found Kuki Godam while I was surfing through social media. The objective is to determine his birthday in order to narrow down his age range.
-
+I found Kuki Godam while I was surfing through the social media. Help me to track down his birthday so we can narrow down the age range.
 ## Solution
 
 From the description, I have to find the birthday of Kuki Godam. The first instinct was to look through his social media by searching his name on Google.
