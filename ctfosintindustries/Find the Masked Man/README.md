@@ -26,7 +26,11 @@ Based on proximity and matching location context, the correct station was identi
 
 ## Flag
 
-OSINT{SAINT_PHILIPPE_DU_ROULE}
+OSINT{SAINT_PHILIPPE_DU_*****}
+
+✔ Geolocation investigation conducted  
+✔ Relevant entity identified  
+✔ Result validated
 
 ## Comment
 
