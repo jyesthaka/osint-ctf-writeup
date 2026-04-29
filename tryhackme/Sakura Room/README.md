@@ -1,4 +1,12 @@
-# Sakura Room
+## Challenge Info
+
+**Title:** Sakura Room  
+**Category:** OSINT  
+**Difficulty:** Easy  
+**Description:**  
+This challenge involves tracking an attacker across multiple platforms using OSINT techniques such as metadata analysis, username pivoting, cryptocurrency tracing, and geolocation.
+
+## Solution
 
 Here's the write up for Sakura Room on TryHackMe.
 
@@ -8,29 +16,27 @@ We'll skip this part
 
 Answer: Let's Go!
 
-
 ## PART 2 - TIP-OFF
 
-### Question: What username does the attacker go by?
+**Question: What username does the attacker go by?**
 
 Given an image that can be opened in the browser. The first instinct was to view page source of the image and there's this part:
 
 <img width="854" height="427" alt="image" src="https://github.com/user-attachments/assets/5bf30529-6717-482e-b44e-ba1a5e70f62b" />
 
-### Answer: SakuraSnowAngelAiko
-
+Answer: SakuraSnowAngelAiko
 
 ## PART 3 - RECONNAISSANCE
 
-### Question: What is the full email address used by the attacker?
+**Question: What is the full email address used by the attacker?**
 
 To search for the email address: Google the username SakuraSnowAngelAiko and a Github page will show up. In their profile, there is a PGP repo with a public key than can be decrypted. Using this, an email was found:
 
 <img width="1271" height="169" alt="image" src="https://github.com/user-attachments/assets/b3992e1f-d8a3-43b5-bb13-4df94e671456" />
 
-### Answer: SakuraSnowAngel83@protonmail.com
+Answer: SakuraSnowAngel83@protonmail.com
 
-### Question: What is the attacker's full real name?
+**Question: What is the attacker's full real name?**
 
 By Googling SakuraSnowAngelAiko, there will also be a website that is pops up that shows this:
 
@@ -38,23 +44,23 @@ By Googling SakuraSnowAngelAiko, there will also be a website that is pops up th
 
 This is clearly the user's real name
 
-### Answer: Aiko Abe
+Answer: Aiko Abe
 
 ## PART 4 - UNVEIL
 
-### Qeustion: What cryptocurrency does the attacker own a cryptocurrency wallet for?
+**Qeustion: What cryptocurrency does the attacker own a cryptocurrency wallet for?**
 
 In the GitHub profile that the user owned which we have already seen, there is also a ETH repo (commonly ETH is Ethereum)
 
-### Answer: Ethereum
+Answer: Ethereum
 
-### Question: What is the attacker's cryptocurrency wallet address?
+**Question: What is the attacker's cryptocurrency wallet address?**
 
 In that specific repo, there is also a miningscript that contains a wallet: 0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef
 
-### Answer: 0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef
+Answer: 0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef
 
-### Question: What mining pool did the attacker receive payments from on January 23, 2021 UTC?
+**Question: What mining pool did the attacker receive payments from on January 23, 2021 UTC?**
 
 There is a website called etherscan.io where we can paste this and look at the activities done by the wallet owner
 
@@ -64,25 +70,25 @@ On January 23, 2021, there is 1 activity by this certain user and it is seen tha
 
 <img width="605" height="31" alt="image" src="https://github.com/user-attachments/assets/e3ec6810-4ffe-46a7-a872-0ec465b59a27" />
 
-### Answer: Ethermine
+Answer: Ethermine
 
-### Question: What other cryptocurrency did the attacker exchange with using their cryptocurrency wallet?
+**Question: What other cryptocurrency did the attacker exchange with using their cryptocurrency wallet?**
 
 We can simply just see that the user has exchanged in other forms of cryptocurrency which is Tether
 
 <img width="615" height="93" alt="image" src="https://github.com/user-attachments/assets/e75306b0-7685-4b0b-a4c7-f98381247b76" />
 
-### Answer: Tether
+Answer: Tether
 
 ## PART 5 - TAUNT
 
-### Question: What is the attacker's current Twitter handle?
+**Question: What is the attacker's current Twitter handle?**
 
 In the beginning, we have found that the user has a new Twitter handle: SakuraLoverAiko
 
-### Answer: SakuraLoverAiko
+Answer: SakuraLoverAiko
 
-### Question: What is the BSSID for the attacker's Home WiFi?
+**Question: What is the BSSID for the attacker's Home WiFi?**
 
 We have to find BSSID and one of the webs that we can use is wigle.net
 
@@ -92,11 +98,11 @@ From the Twitter, the user shared about an AP and directed us to deep paste the 
 
 From here, we found that the SSID is DK1F-G and there is 1 result that shows up when it is inputted in wigle.net, which has a BSSID of 84:af:ec:34:fc:f8
 
-### Answer: 84:af:ec:34:fc:f8
+Answer: 84:af:ec:34:fc:f8
 
 ## PART 6 - HOMEBOUND
 
-### Question: What airport is closest to the location the attacker shared a photo from prior to getting on their flight?
+**Question: What airport is closest to the location the attacker shared a photo from prior to getting on their flight?**
 
 In the Twitter page, there is an image that the user uploaded, showing cherry blossom trees.
 
@@ -118,9 +124,9 @@ Using this image, I screen snipped it and used Google Lens again and found a mat
 
 It is shown that this monument is the Washington Monument where the nearest airport to this building is the Ronald Reagan Washington National Airport or DCA
 
-### Answer: DCA
+Answer: DCA
 
-### Question: What airport did the attacker have their last layover in?
+**Question: What airport did the attacker have their last layover in?**
 
 The user uploaded an image on his Twitter account about his last layover
 
@@ -132,9 +138,9 @@ Using Google Images where we input the text on the image, we can find the exact 
 
 On the captions, it is stated that the airport is Haneda airport with the code HND 
 
-### Answer: HND
+Answer: HND
 
-### Question: What lake can be seen in the map shared by the attacker as they were on their final flight home?
+**Question: What lake can be seen in the map shared by the attacker as they were on their final flight home?**
 
 There is a map showing a lake that was uploaded by the user on their Twitter account
 
@@ -148,10 +154,20 @@ We can see this image and when looking into it again, it is Lake Inawashiro
 
 <img width="321" height="294" alt="image" src="https://github.com/user-attachments/assets/5a09bc7a-81e2-47aa-8bdd-35d8b42f5394" />
 
-### Answer: Lake Inawashiro
+Answer: Lake Inawashiro
 
-### Question: What city does the attacker likely consider "home"?
+**Question: What city does the attacker likely consider "home"?**
 
 From the previous deep pasting, it is already discovered that the hometown is Hirosaki.
 
+Answer: Hirosaki
+
 Therefore, CTF solved.
+
+## Flag
+
+N/A
+
+## Comment
+
+Comprehensive OSINT challenge that combines multiple techniques including metadata analysis, social media pivoting, cryptocurrency tracking, WiFi intelligence, and geolocation. Good practice for real-world investigations.
