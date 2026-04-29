@@ -4,8 +4,7 @@
 **Category:** OSINT  
 **Difficulty:** Very Easy  
 **Description:**  
-This challenge involves analyzing an image of a military vehicle and gathering detailed information about it, including its type, manufacturer, service history, origin, and capacity.
-
+An anonymous source has shared a photograph of an unidentified military armored vehicle during field operations. Your mission is to conduct a comprehensive OSINT analysis to identify this vehicle and its specifications.
 ## Solution
 
 The objective is to find informations about the vehicle.
